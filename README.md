@@ -10,7 +10,6 @@ Find Events: Enables users to search for events happening within the next 14 day
 
 Installation
 Clone the repository to your local machine:
-git clone https://github.com/kartikG-86/Event_assignment.git
 Install the required dependencies using pip:
 pip install -r requirements.txt
 
