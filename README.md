@@ -8,12 +8,12 @@ Add Event: Allows users to add new events to the system by providing event detai
 
 Find Events: Enables users to search for events happening within the next 14 days based on their location and specified date. The /events/find endpoint accepts GET requests for finding events.
 
-Installation
+# Installation
 Clone the repository to your local machine:
 Install the required dependencies using pip:
 pip install -r requirements.txt
 
-Why Python and CSV?
+# Why Python ?
 Python was chosen as the primary technology stack for this project due to its simplicity, versatility, and ease of use in handling data processing tasks. Here's why Python was selected:
 
 Data Processing: Python provides robust libraries and tools for handling various data processing tasks efficiently. With libraries like Pandas and NumPy, managing and manipulating data, especially in CSV format, becomes straightforward.
@@ -38,7 +38,7 @@ Start the Flask server:
 python main.py
 Once the server is running, you can access the API endpoints using tools like Postman or by submitting requests via the provided web interface.
 
-API Endpoints
+# API Endpoints
 /add_event
 Request Format:
 Method: GET
@@ -96,12 +96,12 @@ Content: JSON object with details of the found events.
         "totalPages": 4
     },
 ]
-Error Response:
+# Error Response:
 Code: 400 Bad Request
 Content: JSON object with error message.
 {
     "error_message": "Depend on Type of error",
     "error_type" : "Depend on Particular Error type"
 }
-Web Interface
+# Web Interface
 The project includes a simple web interface where users can interact with the API endpoints by submitting details via a form. The web interface can be accessed by navigating to http://localhost:5000 in a web browser while the Flask server is running.
